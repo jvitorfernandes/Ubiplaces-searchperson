@@ -66,7 +66,7 @@ a {
 }
 
 #resultados {
-    color: ;
+/*    color: ;*/
     margin-top: 4em;
     margin-bottom: 0;
 }
@@ -96,4 +96,8 @@ td {
 td {
     max-width: 100%;
     box-sizing: border-box;
+}
+
+.resultado {
+    display: none;
 }

@@ -26,7 +26,7 @@
                     <h4><a class="top-title" href="index.html">SearchPerson</a></h4>
                 </div>
                 <div class="top-search nine columns">
-                        <input class="top-box" type="text" name="searchbox" placeholder="ex: Jader Martins">
+                        <input class="ue textentry" type="text" name="searchbox" placeholder="ex: Jader Martins">
                         <button id="top-btn" class="button button-primary">Buscar</button>
                 </div>
             </div>            
@@ -35,19 +35,21 @@
     
 	<div id="main-container">
 	   <h1 class="titulo">SearchPerson</h1>
-        <div><input class="nome" type="text" name="searchbox" placeholder="ex: Jader Martins"></div>
+        <div><input class="nome textentry" type="text" name="searchbox" placeholder="ex: Jader Martins"></div>
 	   <button id="btn" class="button button-primary">Buscar</button>
     </div>
     
-    
-    
-    
-    <div id="tabela">
+    <div class="resultado">
         <div class="container">
             <p id="resultados"></p>
             <hr>
+        </div>
+    </div>
+    
+    <div id="tabela">
+        <div class="container">
             <table class="">
-              <thead class="thishead">
+              <thead>
                 <tr>
                   <th>IDX</th>
                   <th>Name</th>
@@ -58,8 +60,8 @@
                   <th>Entity</th>   
                 </tr>
               </thead>
-                <tbody>
-
+            <tbody class="thishead">
+            </tbody>
             </table>
             </div>
     </div>
