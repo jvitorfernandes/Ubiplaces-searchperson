@@ -1,0 +1,61 @@
+
+#main-container {
+/*    display: none;*/
+    margin: 0 auto;
+    text-align: center;
+    padding: 15em 0 0 0;
+}
+
+.nome {
+    width: 60%;
+    max-width:40em;
+    margin: 1.em auto 1.8em;
+    
+}
+
+#btn {
+    position:relative;
+    width: 12em;
+}
+
+h1 {
+/*    font-size: 4.5em;*/
+}
+
+.titulo {
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-logo {
+   text-align: left;
+}
+
+.header {
+    width: 100%;
+    padding: 15px 0 0 0;
+}
+
+
+.top-search {
+    text-align: right;
+}
+
+.container {
+    
+}
+
+
+
+
+
+
+
+.top-title {
+    color: #222;
+}
+
+

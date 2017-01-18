@@ -4,11 +4,12 @@ $("#btn").on("click", function(){
     
     var payload = {"name":searchterm};
     payload = JSON.stringify(payload);
-
+    
+    $('#main-container').hide();
+    $('.header').fadeIn(700);
     $.post("https://dev.api.ubiplaces.com.br/t/searchperson", payload, function(data,status){
 
 	console.log(status); //200
-
 	list_of_servidores = data.results; //array of objects
 
 	for(var i = 0; i < list_of_servidores.length; i++){
@@ -18,5 +19,7 @@ $("#btn").on("click", function(){
 		console.log('-------------------------------')
 	}
 
-    });
+    },"json");
+
 });
+
