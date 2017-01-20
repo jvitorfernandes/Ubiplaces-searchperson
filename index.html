@@ -1,72 +1,73 @@
-<!DOCTYPE html>
-<html>
-<head>
+    <!DOCTYPE html>
+    <html>
+    <head>
 
-	<title>Search</title>
-	<meta charset="utf-8">
-	<meta name="description" content="">
-  	<meta name="author" content="">
+    	<title>Search</title>
+    	<meta charset="utf-8">
+    	<meta name="description" content="">
+       <meta name="author" content="">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+       <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-	<link rel="stylesheet" href="css/normalize.css">
-  	<link rel="stylesheet" href="css/skeleton.css">
-  	<link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/normalize.css">
+       <link rel="stylesheet" href="css/skeleton.css">
+       <link rel="stylesheet" href="css/style.css">
 
-  	<link rel="icon" type="image/png" href="">
-</head>
-<body>
-    
-    <header class="header">
+       <link rel="icon" type="image/png" href="">
+    </head>
+    <body>
+
+      <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="top-logo three columns">
-                    <h4><a class="top-title" href="index.html">SearchPerson</a></h4>
-                </div>
-                <div class="top-search nine columns">
-                        <input class="ue textentry" type="text" name="searchbox" placeholder="ex: Jader Martins">
-                        <button id="top-btn" class="button button-primary">Buscar</button>
-                </div>
-            </div>            
-        </div>
-    </header>
-    
-	<div id="main-container">
-	   <h1 class="titulo">SearchPerson</h1>
-        <div><input class="nome textentry" type="text" name="searchbox" placeholder="ex: Jader Martins"></div>
-	   <button id="btn" class="button button-primary">Buscar</button>
+          <div class="row">
+            <div class="top-logo three columns">
+              <h4><a class="top-title" href="index.html">SearchPerson</a></h4>
+          </div>
+          <div class="top-search nine columns">
+              <input class="ue textentry" type="text" name="searchbox" placeholder="ex: Jader Martins">
+              <button id="top-btn" class="button button-primary">Buscar</button>
+          </div>
+      </div>            
     </div>
-    
-    <div class="resultado">
-        <div class="container">
+    </header>
+
+    <div id="main-container">
+        <h1 class="titulo">SearchPerson</h1>
+          <div><input class="nome textentry" type="text" name="searchbox" placeholder="ex: Jader Martins"></div>
+          <button id="btn" class="button button-primary" type="submit">Buscar</button>
+
+      </div>
+
+      <div class="resultado">
+            <div class="container">
             <p id="resultados"></p>
             <hr>
         </div>
     </div>
-    
+
     <div id="tabela">
-        <div class="container">
-            <table class="">
-              <thead>
-                <tr>
-                  <th>IDX</th>
-                  <th>Name</th>
-                  <th>CPF</th>
-                  <th>Basic_Data</th>
-                  <th>Type</th>
-                  <th>Gain</th>
-                  <th>Entity</th>   
-                </tr>
-              </thead>
-            <tbody class="thishead">
-            </tbody>
-            </table>
-            </div>
+      <div class="container">
+        <table class="">
+          <thead>
+            <tr>
+              <th>IDX</th>
+              <th>Name</th>
+              <th>CPF</th>
+              <th>Basic_Data</th>
+              <th>Type</th>
+              <th>Gain</th>
+              <th>Entity</th>   
+          </tr>
+      </thead>
+      <tbody class="thishead">
+      </tbody>
+    </table>
+    </div>
     </div>
 
-	<script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
-	<script src= "js/app.js" type="text/javascript" charset="utf-8" async defer></script>
-</body>
-</html>
+    <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src= "js/app.js" type="text/javascript" charset="utf-8" async defer></script>
+    </body>
+    </html>

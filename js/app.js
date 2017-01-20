@@ -27,7 +27,7 @@ function myFunction(searchterm){
         qt = data.qt;
            
         $("#resultados").empty();
-        $("#resultados").append('<b>' + qt + ' resultados para "' + searchterm + '":</b>');
+        $("#resultados").append('<b>' + '<span style="color:#1EAEDB">' + qt + '</span>' + ' resultados para "' + '<span style="color:#1EAEDB">' + searchterm + '</span>' + '":</b>');
         $('.resultado').fadeIn(350);
         
         appendToTable(searchterm, list_of_servidores, qt);
@@ -60,4 +60,14 @@ $("#top-btn").on("click", function(){
     
     $('#tabela').fadeOut(700);
     $('.resultado').fadeOut(700);
+});
+
+$('.nome').keypress(function(e){
+      if(e.keyCode==13)
+      $('#btn').click();
+});
+
+$('.ue').keypress(function(e){
+      if(e.keyCode==13)
+      $('#top-btn').trigger("click");
 });
